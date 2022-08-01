@@ -1,0 +1,215 @@
+@charset "utf-8";
+h2 {
+	font-size: 24px;
+    margin-bottom: 35px;
+}
+#content {
+       overflow: hidden;
+}
+.main_spot {
+    width: 1024px;
+    height: 672px;
+    background: #fff url("https://images.unsplash.com/photo-1501117716987-c8c394bb29df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80") 50% 100% no-repeat;
+    background-size: 960px auto;
+    position: relative;
+    margin: 26px auto 40px auto;
+}
+.main_spot > h2 {
+    position: absolute;
+    font-size: 32px;
+    top: 135px;
+    margin-left: 85px;
+    color: white;
+    font-family: '여기어때 잘난체';
+}
+.main_link {
+    width: 850px;
+    margin: 45px 87px;
+    position: absolute;
+    padding: 32px 0 29px 0px;
+    background-color: white;
+    top: 150px;
+    overflow: hidden;
+}
+.main_link ul {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+}
+.main_link li {
+    float: left;
+    width: 123px;
+    height: 100px;
+}
+.main_link li a {
+    display: block;
+    height: 107px;
+    font-size: 18px;
+    color: rgba(0,0,0,0.56);
+    text-align: center;
+    overflow: hidden;
+}
+.main_link li a span {
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+}
+.main_link li a p {
+    height: 20px;
+    padding-top: 7px;
+/*     color: #f7323f; */
+	color: black;
+    font-family: '여기어때 잘난체';
+}
+.main_link ul li.selected a p {
+	color: #f7323f; 
+}
+.main_link .ico_01 {
+    background: url("https://image.goodchoice.kr/images/web_v3/ico_category_180801.png") -144px -72px no-repeat;
+    background-size: 216px auto;
+}
+.main_link .ico_02 {
+    background: url("https://image.goodchoice.kr/images/web_v3/ico_category_180801.png") -144px 0 no-repeat;
+    background-size: 216px auto;
+}
+.main_link .ico_03 {
+    background: url("https://image.goodchoice.kr/images/web_v3/ico_category_180801.png") -72px -144px no-repeat;
+    background-size: 216px auto;
+}
+.recommend {
+    width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 31px 0 31px;
+}
+.recommend li {
+    overflow: hidden;
+    float: left;
+    position: relative;
+    width: 473px;
+    height: 162px;
+    margin: 0 0 28px 0;
+    padding: 0 24px 0 186px;
+    border: 1px solid rgba(0,0,0,0.08);
+}
+.recommend li:nth-child(even) {
+    margin-left: 16px;
+}
+.recommend li a {
+    display: block;
+    height: 162px;
+    font-size: 17px;
+    line-height: 1.6;
+    color: rgba(0,0,0,0.56);
+    box-sizing: border-box;
+}
+.recommend li img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 162px;
+    height: 162px;
+}
+.recommend li strong {
+    display: block;
+    padding: 38px 0 14px 0;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: normal;
+    color: rgb(0,121,107);
+}
+.appdown {
+    display: block;
+    overflow: hidden;
+    width: 962px;
+    height: 320px;
+    margin: 64px auto 78px auto;
+    background: url("https://image.goodchoice.kr/images/web_v3/bg_appdown.png") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.appdown p {
+    margin: 103px 0 27px 0;
+    font-size: 28px;
+    color: rgba(0,0,0,0.87);
+}
+.appdown div a {
+    display: inline-block;
+    width: 168px;
+    height: 52px;
+    margin: 0 4px;
+}
+.appdown div a img{
+    width: 168px;
+    height: auto;
+}
+.appdown div button{
+      display:none
+}
+.event_main {
+    width: 962px;
+    margin: 0 auto;
+}
+.event_main h2 {
+    padding: 0;
+}
+.swiper-container {
+    width: 962px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.swiper-wrapper {
+    position: relative;
+    width: 3848px;
+    height: 100%;
+    display: flex;
+    box-sizing: content-box;
+    transition-duration: 0.5s;
+}
+.swiper-slide {
+    display: flex;
+    width: 962px;
+    height: 100%;
+    position: relative;
+}
+.swiper-slide > a > img{
+    width: 100%;
+}
+
+/* Ad */
+
+.ad_ask {
+    width: 962px;
+    margin: 24px auto 0 auto;
+}
+.ad_ask .pc {
+    display: block;
+}
+.ad_ask ul li:first-child {
+    float: left;
+    width: 473px;
+    margin-bottom: 8px;
+}
+.ad_ask ul li:last-child {
+    float: right;
+    width: 473px;
+}
+.ad_ask ul li {
+    overflow: hidden;
+    height: 200px;
+    border: 1px solid rgba(0,0,0,0.04);
+}
+.ad_ask ul li a {
+    display: block;
+    height: 200px;
+    padding: 0 0 0;
+}
+.ad_ask ul li a img {
+    width: auto;
+    height: 200px;
+}
