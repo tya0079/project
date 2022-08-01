@@ -26,7 +26,7 @@ h2 {
     top: 135px;
     margin-left: 85px;
     color: white;
-    font-family: '여기어때 잘난체';
+    font-family: 'yg-jalnan';
 }
 .main_link {
     width: 850px;
@@ -67,7 +67,7 @@ h2 {
     padding-top: 7px;
 /*     color: #f7323f; */
 	color: black;
-    font-family: '여기어때 잘난체';
+    font-family: 'yg-jalnan';
 }
 .main_link ul li.selected a p {
 	color: #f7323f; 

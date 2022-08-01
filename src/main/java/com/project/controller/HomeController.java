@@ -20,5 +20,8 @@ public class HomeController {
 	public String detail() {
 		return "detail";
 	}
-	
+	@RequestMapping("/daterangePicker")
+	public String index() {
+		return "daterangePicker";
+	}
 }
